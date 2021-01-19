@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-#name-highlite{ 
+.orange-highlite{ 
     color: orange;   
 }
 .half_width{
@@ -35,7 +35,7 @@ section{
     background-image: linear-gradient( 45deg, lightSalmon, tomato);
 }
 h3{
-    font-size: 20px;
+    font-size: 15px;
 }
 p{
     color: dimgray;
@@ -44,4 +44,38 @@ p{
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+/* part 3 / bottom part */
+
+.experience_area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+
+.exprience{
+    text-align: center;
+    padding-bottom: 70px;
+    font-weight: 800;
+    font-size: 50px;
+    color: orange;
+    text-decoration: underline;
+}
+.single_exprience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    background-color: white;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 10;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 10;
+}
+#footer{
+    text-align: center;
 }
