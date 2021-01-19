@@ -61,10 +61,13 @@ p{
     color: orange;
     text-decoration: underline;
 }
+.height_manage{
+    width: 100%;
+}
 .single_exprience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 7px;
-    width: 80%;
+    height: 80%;
     background-color: white;
 }
 #full_stack{
